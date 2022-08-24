@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background-image: url("https://apod.nasa.gov/apod/image/2104/NGC3521-LRGB-1024c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.button {
+  background-color: #c2c2c2; /* Green */
+  border-radius: 52px;
+  color: rgb(24, 23, 23);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 0 0 14px;
+}
+
+.button2 {
+  padding: 12px 28px;
+}
+
+input {
+  background-color: #c2c2c2; /* Green */
+  border-radius: 52px;
+  color: rgb(24, 23, 23);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 8px 8px 0 0;
+}
