@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
+  font-size: large;
 }
 body {
   background-image: url("https://apod.nasa.gov/apod/image/2104/NGC3521-LRGB-1024c.jpg");
@@ -64,10 +65,17 @@ h1 {
   body {
     display: flex;
     flex-direction: column;
+    padding: 0 2.5%;
+    width: 95%;
   }
 
   #info {
     display: flex;
     flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
   }
 }
